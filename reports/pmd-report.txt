@@ -1,0 +1,311 @@
+src/control/GameProcess.java:5:	headerCommentRequirement Required
+src/control/GameProcess.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/control/GameProcess.java:7:	fieldCommentRequirement Required
+src/control/GameProcess.java:8:	publicMethodCommentRequirement Required
+src/control/GameProcess.java:12:	Parameter 'col' is not assigned and could be declared final
+src/control/GameProcess.java:12:	Parameter 'row' is not assigned and could be declared final
+src/control/GameProcess.java:12:	publicMethodCommentRequirement Required
+src/control/GameProcess.java:19:	publicMethodCommentRequirement Required
+src/control/GameProcess.java:27:	Local variable 'cellNum' could be declared final
+src/control/GameProcess.java:50:	Parameter 'curStatus' is not assigned and could be declared final
+src/control/GameProcess.java:50:	Parameter 'surCellNumber' is not assigned and could be declared final
+src/control/GameProcess.java:52:	Avoid using Literals in Conditional Statements
+src/control/GameProcess.java:54:	A method should have only one exit point, and that should be the last statement in the method
+src/control/GameProcess.java:56:	Avoid using Literals in Conditional Statements
+src/control/GameProcess.java:58:	A method should have only one exit point, and that should be the last statement in the method
+src/control/GameProcess.java:70:	Parameter 'col' is not assigned and could be declared final
+src/control/GameProcess.java:70:	Parameter 'row' is not assigned and could be declared final
+src/control/GameProcess.java:87:	Local variable 'width' could be declared final
+src/control/GameProcess.java:88:	Local variable 'length' could be declared final
+src/control/GameProcess.java:90:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '90'-'102').
+src/control/GameProcess.java:90:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '90'-'98').
+src/control/GameProcess.java:98:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '98'-'102').
+src/control/GameProcess.java:98:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '98'-'98').
+src/control/GameProcess.java:102:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '102'-'102').
+src/control/GameProcess.java:102:	Found 'DD'-anomaly for variable 'cellSaveRect' (lines '102'-'98').
+src/control/GameProcessTest.java:11:	headerCommentRequirement Required
+src/control/GameProcessTest.java:13:	fieldCommentRequirement Required
+src/control/GameProcessTest.java:15:	publicMethodCommentRequirement Required
+src/control/GameProcessTest.java:20:	publicMethodCommentRequirement Required
+src/control/GameProcessTest.java:21:	Local variable 'newGame' could be declared final
+src/control/GameProcessTest.java:25:	publicMethodCommentRequirement Required
+src/control/GameProcessTest.java:26:	Found 'DD'-anomaly for variable 'status' (lines '26'-'28').
+src/control/GameProcessTest.java:27:	Local variable 'col' could be declared final
+src/control/GameProcessTest.java:27:	Local variable 'row' could be declared final
+src/control/GameProcessTest.java:27:	Use one line for each declaration, it enhances code readability.
+src/control/GameProcessTest.java:30:	Potential violation of Law of Demeter (static property access)
+src/control/GameProcessTest.java:34:	JUnit tests should not contain more than 1 assert(s).
+src/control/GameProcessTest.java:34:	publicMethodCommentRequirement Required
+src/control/GameProcessTest.java:36:	Found 'DD'-anomaly for variable 'cellSavePrinciple' (lines '36'-'44').
+src/control/GameProcessTest.java:37:	Avoid unused local variables such as 'status'.
+src/control/GameProcessTest.java:37:	Found 'DU'-anomaly for variable 'status' (lines '37'-'54').
+src/control/GameProcessTest.java:37:	Local variable 'status' could be declared final
+src/control/GameProcessTest.java:39:	Avoid variables with short names like rc
+src/control/GameProcessTest.java:39:	Local variable 'rc' could be declared final
+src/control/GameProcessTest.java:40:	Avoid unused local variables such as 'obj'.
+src/control/GameProcessTest.java:40:	Found 'DU'-anomaly for variable 'obj' (lines '40'-'54').
+src/control/GameProcessTest.java:40:	Local variable 'obj' could be declared final
+src/control/GameProcessTest.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:41:	System.out.println is used
+src/control/GameProcessTest.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:46:	System.out.println is used
+src/control/GameProcessTest.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/control/GameProcessTest.java:51:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x)   or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/control/GameProcessTest.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/model/CellLifeWorld.java:3:	headerCommentRequirement Required
+src/model/CellLifeWorld.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/CellLifeWorld.java:5:	Private field 'worldRow' could be made final; it is only initialized in the declaration or constructor.
+src/model/CellLifeWorld.java:5:	fieldCommentRequirement Required
+src/model/CellLifeWorld.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/CellLifeWorld.java:6:	Private field 'worldCol' could be made final; it is only initialized in the declaration or constructor.
+src/model/CellLifeWorld.java:6:	fieldCommentRequirement Required
+src/model/CellLifeWorld.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/CellLifeWorld.java:7:	Private field 'cells' could be made final; it is only initialized in the declaration or constructor.
+src/model/CellLifeWorld.java:7:	fieldCommentRequirement Required
+src/model/CellLifeWorld.java:14:	Parameter 'worldCol' is not assigned and could be declared final
+src/model/CellLifeWorld.java:14:	Parameter 'worldRow' is not assigned and could be declared final
+src/model/CellLifeWorld.java:19:	Avoid using for statements without curly braces
+src/model/CellLifeWorld.java:22:	Avoid instantiating new objects inside loops
+src/model/CellLifeWorld.java:29:	publicMethodCommentRequirement Required
+src/model/CellLifeWorld.java:33:	publicMethodCommentRequirement Required
+src/model/CellLifeWorld.java:47:	Local variable 'randomNum' could be declared final
+src/model/CellLifeWorld.java:48:	Avoid using Literals in Conditional Statements
+src/model/CellLifeWorld.java:49:	Avoid using if...else statements without curly braces
+src/model/CellLifeWorld.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:51:	Avoid using if...else statements without curly braces
+src/model/CellLifeWorld.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:63:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:63:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:65:	Useless parentheses.
+src/model/CellLifeWorld.java:65:	Useless parentheses.
+src/model/CellLifeWorld.java:65:	Useless parentheses.
+src/model/CellLifeWorld.java:65:	Useless parentheses.
+src/model/CellLifeWorld.java:66:	A method should have only one exit point, and that should be the last statement in the method
+src/model/CellLifeWorld.java:66:	Avoid using if...else statements without curly braces
+src/model/CellLifeWorld.java:68:	Avoid using if...else statements without curly braces
+src/model/CellLifeWorld.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:73:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:73:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:75:	Local variable 'beforeStatus' could be declared final
+src/model/CellLifeWorld.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:83:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:83:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:90:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:90:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:97:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:97:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/model/CellLifeWorld.java:104:	Parameter 'col' is not assigned and could be declared final
+src/model/CellLifeWorld.java:104:	Parameter 'row' is not assigned and could be declared final
+src/model/CellLifeWorld.java:106:	Found 'DD'-anomaly for variable 'curNum' (lines '106'-'115').
+src/model/CellLifeWorld.java:111:	Useless parentheses.
+src/model/CellLifeWorld.java:111:	Useless parentheses.
+src/model/CellLifeWorld.java:112:	Avoid using if...else statements without curly braces
+src/model/CellLifeWorld.java:115:	Found 'DD'-anomaly for variable 'curNum' (lines '115'-'115').
+src/model/CellMes.java:3:	headerCommentRequirement Required
+src/model/CellMes.java:5:	fieldCommentRequirement Required
+src/model/CellMes.java:6:	Field isChangeStatus has the same name as a method
+src/model/CellMes.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/CellMes.java:6:	fieldCommentRequirement Required
+src/model/CellMes.java:8:	publicMethodCommentRequirement Required
+src/model/CellMes.java:14:	Parameter 'cellStatus' is not assigned and could be declared final
+src/model/CellMes.java:14:	Parameter 'isChangeStatus' is not assigned and could be declared final
+src/model/CellMes.java:14:	publicMethodCommentRequirement Required
+src/model/CellMes.java:21:	publicMethodCommentRequirement Required
+src/model/CellMes.java:25:	Parameter 'cellStatus' is not assigned and could be declared final
+src/model/CellMes.java:25:	publicMethodCommentRequirement Required
+src/model/CellMes.java:29:	publicMethodCommentRequirement Required
+src/model/CellMes.java:33:	Parameter 'isChangeStatus' is not assigned and could be declared final
+src/model/CellMes.java:33:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:21:	Too many fields
+src/view/GameFrame.java:21:	headerCommentRequirement Required
+src/view/GameFrame.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:23:	It is somewhat confusing to have a field name matching the declaring class name
+src/view/GameFrame.java:23:	To avoid mistakes add a comment at the beginning of the gameFrame field if you want a default access modifier
+src/view/GameFrame.java:23:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:23:	fieldCommentRequirement Required
+src/view/GameFrame.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:25:	To avoid mistakes add a comment at the beginning of the operatePanel field if you want a default access modifier
+src/view/GameFrame.java:25:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:25:	fieldCommentRequirement Required
+src/view/GameFrame.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:26:	To avoid mistakes add a comment at the beginning of the viewPanel field if you want a default access modifier
+src/view/GameFrame.java:26:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:26:	fieldCommentRequirement Required
+src/view/GameFrame.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:27:	To avoid mistakes add a comment at the beginning of the gameControl field if you want a default access modifier
+src/view/GameFrame.java:27:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:27:	fieldCommentRequirement Required
+src/view/GameFrame.java:30:	Avoid using redundant field initializer for 'isRunning'
+src/view/GameFrame.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:30:	To avoid mistakes add a comment at the beginning of the isRunning field if you want a default access modifier
+src/view/GameFrame.java:30:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:30:	fieldCommentRequirement Required
+src/view/GameFrame.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:31:	To avoid mistakes add a comment at the beginning of the multipyCycle field if you want a default access modifier
+src/view/GameFrame.java:31:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:31:	fieldCommentRequirement Required
+src/view/GameFrame.java:32:	Avoid using redundant field initializer for 'multipyCount'
+src/view/GameFrame.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:32:	To avoid mistakes add a comment at the beginning of the multipyCount field if you want a default access modifier
+src/view/GameFrame.java:32:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:32:	fieldCommentRequirement Required
+src/view/GameFrame.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:33:	To avoid mistakes add a comment at the beginning of the row field if you want a default access modifier
+src/view/GameFrame.java:33:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:33:	fieldCommentRequirement Required
+src/view/GameFrame.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:34:	To avoid mistakes add a comment at the beginning of the col field if you want a default access modifier
+src/view/GameFrame.java:34:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:34:	fieldCommentRequirement Required
+src/view/GameFrame.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:36:	To avoid mistakes add a comment at the beginning of the cells field if you want a default access modifier
+src/view/GameFrame.java:36:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:36:	fieldCommentRequirement Required
+src/view/GameFrame.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:39:	To avoid mistakes add a comment at the beginning of the sideLength field if you want a default access modifier
+src/view/GameFrame.java:39:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:39:	fieldCommentRequirement Required
+src/view/GameFrame.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:40:	To avoid mistakes add a comment at the beginning of the adjustLength field if you want a default access modifier
+src/view/GameFrame.java:40:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:40:	fieldCommentRequirement Required
+src/view/GameFrame.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:43:	To avoid mistakes add a comment at the beginning of the multipyCountField field if you want a default access modifier
+src/view/GameFrame.java:43:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:43:	fieldCommentRequirement Required
+src/view/GameFrame.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:45:	To avoid mistakes add a comment at the beginning of the changeButton field if you want a default access modifier
+src/view/GameFrame.java:45:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:45:	fieldCommentRequirement Required
+src/view/GameFrame.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:46:	To avoid mistakes add a comment at the beginning of the reStartButton field if you want a default access modifier
+src/view/GameFrame.java:46:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:46:	fieldCommentRequirement Required
+src/view/GameFrame.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GameFrame.java:47:	To avoid mistakes add a comment at the beginning of the startButton field if you want a default access modifier
+src/view/GameFrame.java:47:	Use explicit scoping instead of the default package private level
+src/view/GameFrame.java:47:	fieldCommentRequirement Required
+src/view/GameFrame.java:53:	Parameter 'args' is not assigned and could be declared final
+src/view/GameFrame.java:60:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:67:	Local variable 'screnSize' could be declared final
+src/view/GameFrame.java:68:	Local variable 'width' could be declared final
+src/view/GameFrame.java:69:	Local variable 'height' could be declared final
+src/view/GameFrame.java:94:	Avoid really long methods.
+src/view/GameFrame.java:96:	Local variable 'operatePanel' could be declared final
+src/view/GameFrame.java:106:	Local variable 'mapWidthPanel' could be declared final
+src/view/GameFrame.java:107:	Local variable 'mapWidthLabel' could be declared final
+src/view/GameFrame.java:108:	Local variable 'mapWidthFiled' could be declared final
+src/view/GameFrame.java:114:	Local variable 'mapLengthPanel' could be declared final
+src/view/GameFrame.java:115:	Local variable 'mapLengthLabel' could be declared final
+src/view/GameFrame.java:116:	Local variable 'mapLengthField' could be declared final
+src/view/GameFrame.java:121:	Local variable 'multipyCountPanel' could be declared final
+src/view/GameFrame.java:122:	Local variable 'multipyCountLabel' could be declared final
+src/view/GameFrame.java:130:	Local variable 'multipyCycPanel' could be declared final
+src/view/GameFrame.java:131:	Local variable 'multipyCycLabel' could be declared final
+src/view/GameFrame.java:132:	Local variable 'multipyCycField' could be declared final
+src/view/GameFrame.java:142:	Avoid variables with short names like e
+src/view/GameFrame.java:142:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:142:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:166:	Avoid variables with short names like e
+src/view/GameFrame.java:166:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:166:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:184:	Avoid variables with short names like e
+src/view/GameFrame.java:184:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:184:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:191:	Local variable 'stopButton' could be declared final
+src/view/GameFrame.java:196:	Avoid variables with short names like e
+src/view/GameFrame.java:196:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:196:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:207:	Local variable 'spaceLabel' could be declared final
+src/view/GameFrame.java:228:	Local variable 'viewPanel' could be declared final
+src/view/GameFrame.java:238:	Avoid variables with short names like g
+src/view/GameFrame.java:238:	Parameter 'g' is not assigned and could be declared final
+src/view/GameFrame.java:255:	Avoid variables with short names like g
+src/view/GameFrame.java:255:	Parameter 'g' is not assigned and could be declared final
+src/view/GameFrame.java:272:	Avoid variables with short names like g
+src/view/GameFrame.java:272:	Parameter 'g' is not assigned and could be declared final
+src/view/GameFrame.java:272:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:281:	Avoid using Literals in Conditional Statements
+src/view/GameFrame.java:294:	Avoid variables with short names like g
+src/view/GameFrame.java:294:	Parameter 'col' is not assigned and could be declared final
+src/view/GameFrame.java:294:	Parameter 'g' is not assigned and could be declared final
+src/view/GameFrame.java:294:	Parameter 'row' is not assigned and could be declared final
+src/view/GameFrame.java:306:	Avoid variables with short names like g
+src/view/GameFrame.java:306:	Parameter 'col' is not assigned and could be declared final
+src/view/GameFrame.java:306:	Parameter 'g' is not assigned and could be declared final
+src/view/GameFrame.java:306:	Parameter 'row' is not assigned and could be declared final
+src/view/GameFrame.java:312:	Each class should declare at least one constructor
+src/view/GameFrame.java:312:	To avoid mistakes add a comment at the beginning of the MultipyThread nested class if you want a default access modifier
+src/view/GameFrame.java:312:	To be compliant to J2EE, a webapp should not use any thread.
+src/view/GameFrame.java:312:	headerCommentRequirement Required
+src/view/GameFrame.java:315:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:338:	Avoid printStackTrace(); use a logger call instead.
+src/view/GameFrame.java:343:	Each class should declare at least one constructor
+src/view/GameFrame.java:343:	To avoid mistakes add a comment at the beginning of the ClickMonitor nested class if you want a default access modifier
+src/view/GameFrame.java:343:	headerCommentRequirement Required
+src/view/GameFrame.java:347:	Avoid variables with short names like e
+src/view/GameFrame.java:347:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:347:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:349:	Local variable 'point_x' could be declared final
+src/view/GameFrame.java:349:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'point_x' is not final.
+src/view/GameFrame.java:350:	Local variable 'point_y' could be declared final
+src/view/GameFrame.java:350:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'point_y' is not final.
+src/view/GameFrame.java:352:	Avoid using if statements without curly braces
+src/view/GameFrame.java:352:	Useless parentheses.
+src/view/GameFrame.java:352:	Useless parentheses.
+src/view/GameFrame.java:352:	Useless parentheses.
+src/view/GameFrame.java:352:	Useless parentheses.
+src/view/GameFrame.java:354:	Local variable 'col' could be declared final
+src/view/GameFrame.java:355:	Local variable 'row' could be declared final
+src/view/GameFrame.java:357:	Local variable 'beforeStatus' could be declared final
+src/view/GameFrame.java:363:	Avoid using if...else statements without curly braces
+src/view/GameFrame.java:367:	Avoid variables with short names like e
+src/view/GameFrame.java:367:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:367:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:373:	Avoid variables with short names like e
+src/view/GameFrame.java:373:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:373:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:379:	Avoid variables with short names like e
+src/view/GameFrame.java:379:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:379:	publicMethodCommentRequirement Required
+src/view/GameFrame.java:385:	Avoid variables with short names like e
+src/view/GameFrame.java:385:	Parameter 'e' is not assigned and could be declared final
+src/view/GameFrame.java:385:	publicMethodCommentRequirement Required
+src/view/LifeGameTest.java:4:	headerCommentRequirement Required
+src/view/LifeGameTest.java:5:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/view/LifeGameTest.java:6:	Parameter 'args' is not assigned and could be declared final
+src/view/LifeGameTest.java:6:	publicMethodCommentRequirement Required
+src/view/LifeGameTest.java:8:	Local variable 'gameControl' could be declared final
+src/view/LifeGameTest.java:9:	Found 'DU'-anomaly for variable 'array' (lines '9'-'22').
+src/view/LifeGameTest.java:9:	Local variable 'array' could be declared final
+src/view/LifeGameTest.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/view/LifeGameTest.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/view/LifeGameTest.java:16:	System.out.print is used
+src/view/LifeGameTest.java:18:	System.out.println is used

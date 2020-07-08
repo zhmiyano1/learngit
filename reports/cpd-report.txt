@@ -1,0 +1,31 @@
+Found a 4 line (34 tokens) duplication in the following files: 
+Starting at line 22 of E:\eclipseWorkspace\LifeGame\src\control\GameProcess.java
+Starting at line 35 of E:\eclipseWorkspace\LifeGame\src\control\GameProcess.java
+
+		for(int i=0;i<world.getWorldRow();i++)
+		{
+			for(int j=0;j<world.getWorldCol();j++)
+			{
+=====================================================================
+Found a 5 line (26 tokens) duplication in the following files: 
+Starting at line 255 of E:\eclipseWorkspace\LifeGame\src\view\GameFrame.java
+Starting at line 272 of E:\eclipseWorkspace\LifeGame\src\view\GameFrame.java
+
+	public void paintGirdLines(Graphics g)
+	{
+		g.setColor(new Color(0,0,0));
+		//»­Íø¸ñ ºáÏò
+		for(int i=0;i<=row;i++)
+=====================================================================
+Found a 8 line (25 tokens) duplication in the following files: 
+Starting at line 243 of E:\eclipseWorkspace\LifeGame\src\view\GameFrame.java
+Starting at line 281 of E:\eclipseWorkspace\LifeGame\src\view\GameFrame.java
+
+			for(int j=0;j<=col;j++)
+			{
+			
+					g.fillRect(j*sideLength+adjustLength, i*sideLength+adjustLength,sideLength,sideLength);
+				
+			}
+		}
+	}
